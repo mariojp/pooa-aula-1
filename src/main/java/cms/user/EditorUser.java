@@ -1,5 +1,6 @@
 package cms.user;
 
+
 public class EditorUser extends User {
 	
 
@@ -8,5 +9,7 @@ public class EditorUser extends User {
 	}
 
 	public void editContent(int contentId, String body) {
-		/* exclusivo do editor */ }
+		/* exclusivo do editor */ 
+		contentId = this.getId();
+	}
 }

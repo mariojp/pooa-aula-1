@@ -8,5 +8,7 @@ public class GuestUser extends User {
 	}
 
 	public void viewContent(int contentId) {
-		/* exclusivo do visitante */ }
+		/* exclusivo do visitante */ 
+		System.out.println(contentId = this.getId());
+	}
 }
