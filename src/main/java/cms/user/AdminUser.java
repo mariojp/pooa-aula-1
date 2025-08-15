@@ -8,6 +8,6 @@ public class AdminUser extends User {
 
 	public void deleteContent(int contentId) {
 		/* exclusivo do admin */
-		contentId = this.getId();
+		System.out.println(contentId = this.getId());
 	}
 }

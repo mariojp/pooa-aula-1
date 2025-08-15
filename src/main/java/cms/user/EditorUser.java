@@ -11,5 +11,6 @@ public class EditorUser extends User {
 	public void editContent(int contentId, String body) {
 		/* exclusivo do editor */ 
 		contentId = this.getId();
+		System.out.println("Editando conteúdo " + contentId + " com o body: " + body);
 	}
 }
